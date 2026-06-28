@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Badr Web </title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+    }
+
+    body {
+        min-height: 100vh;                 
+        background-image: url(Bureau\ moderne\ avec\ touches\ naturelles.png);  
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;            
+    }
+
+    nav, footer {
+        background: rgba(70, 196, 235, 0.8);
+        padding: 10px;
+        text-align: center;
+    }
+    nav:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    main {
+        flex: 1;                           
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cartes {
+        display: flex;
+        gap: 10px;
+        width: 80%;
+    }
+
+    .carte {
+        background: rgba(51, 164, 184, 0.9);
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        border: 1px solid black;
+    }
+</style>
+</head>
+
+<body>
+
+<nav>
+    Accueil | Services | Contact
+</nav>
+
+<main>
+    <div class="cartes">
+        <div class="carte">HTML</div>
+        <div class="carte">CSS</div>
+        <div class="carte">BOOTSTRAP</div>
+    </div>
+</main>
+
+<footer>
+     <p>© 2026 - Mon site web</p>
+</footer>
+
+</body>
+</html>
+
+
+
